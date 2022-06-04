@@ -1,0 +1,14 @@
+html, body {
+  width: 100%;
+  margin: 0;
+}
+
+ol li:nth-child(odd):hover {
+  background-color: yellow;
+}
+
+ol li:nth-child(even):hover::first-letter {
+  color: red;
+  font-size: 35px;
+}
+/*# sourceMappingURL=style.css.map */
