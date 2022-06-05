@@ -1,0 +1,28 @@
+@import "reset";
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        padding: 14px 16px;
+        &:hover {
+            background-color: #ddd;
+        }
+        &:active {
+            background-color: #ccc;
+        }
+    }
+}
+
+.content {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
