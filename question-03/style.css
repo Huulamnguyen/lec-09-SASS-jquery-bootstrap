@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    width:100%;
+    margin:0;
+}
+
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    margin: 20px auto;
+    width: 70%;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+.add-product {
+    margin-left: 15%;
+}

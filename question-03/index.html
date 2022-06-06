@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Question 03</title>
+</head>
+<body>
+
+    <table id="mainTable">
+        <tr>
+            <th>Product Name</th>
+            <th>Product Category</th>
+            <th>Product Price</th>
+            <th>Action</th>
+        </tr>
+        <tr id="mm">
+            <td>M&M</td>
+            <td>Snacks</td>
+            <td>$1.99</td>
+            <td><button class="delete">Delete</button></td>
+        </tr>
+        <tr id="table">
+            <td>Table</td>
+            <td>Furniture</td>
+            <td>$199</td>
+            <td><button class="delete">Delete</button></td>
+        </tr>
+        <tr id="kale">
+            <td>Kale</td>
+            <td>Vegetables</td>
+            <td>$2.49</td>
+            <td><button class="delete">Delete</button></td>
+        </tr>
+    </table>
+
+    <br>
+
+    <div class="add-product">
+        <h2>Add Product</h2>
+
+        <form id="form">
+            <label for="name">Product Name</label>
+            <input id="name" name="name" type="text">
+            <label for="category">Product Category</label>
+            <input id="category" name="category" type="text">
+            <label for="price">Product Price</label>
+            <input id="price" name="price" type="text">
+
+            <input id="submitBtn" type="submit" value="Submit">
+        </form>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
